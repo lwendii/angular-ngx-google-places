@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'fuel-cost-per-route'`, () => {
+  it(`should have as title 'angular-ngx-google-places'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('fuel-cost-per-route');
+    expect(app.title).toEqual('angular-ngx-google-places');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('fuel-cost-per-route app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-ngx-google-places app is running!');
   });
 });

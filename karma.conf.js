@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/fuel-cost-per-route'),
+      dir: require('path').join(__dirname, './coverage/angular-ngx-google-places'),
       subdir: '.',
       reporters: [
         { type: 'html' },

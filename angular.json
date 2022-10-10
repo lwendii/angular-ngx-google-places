@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fuel-cost-per-route": {
+    "angular-ngx-google-places": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fuel-cost-per-route",
+            "outputPath": "dist/angular-ngx-google-places",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fuel-cost-per-route:build:production"
+              "browserTarget": "angular-ngx-google-places:build:production"
             },
             "development": {
-              "browserTarget": "fuel-cost-per-route:build:development"
+              "browserTarget": "angular-ngx-google-places:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fuel-cost-per-route:build"
+            "browserTarget": "angular-ngx-google-places:build"
           }
         },
         "test": {
